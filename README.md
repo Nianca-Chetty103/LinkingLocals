@@ -5,6 +5,7 @@ well I decided to start building a platform that helps with lowering our huge ra
 - 
 
 ## How it helps the community
+- 
 
 ## Considerations 
 - has to a project that helps our South african community.
