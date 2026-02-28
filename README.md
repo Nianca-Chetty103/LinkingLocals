@@ -2,7 +2,8 @@
 well I decided to start building a platform that helps with lowering our huge rate of unemployment, so that they can grow and hopefully get some more people employed.
 
 ## Problems
-- 
+- high unemployment rate.
+- small businesses finding ways / resources to grow
 
 ## How it helps the community
 - lower the unemployment rate in South africa.
