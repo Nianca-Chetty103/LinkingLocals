@@ -8,6 +8,7 @@ well I decided to start building a platform that helps with lowering our huge ra
 ## How it helps the community
 - lower the unemployment rate in South africa.
 - promoting small businesses and informal economy grow.
+- get our economy flowing in terms of efficiency and producing other opportunities.
 
 ## Considerations 
 - has to a project that helps our South african community.
