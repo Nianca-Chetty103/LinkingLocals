@@ -20,5 +20,6 @@ well I decided to start building a platform that helps with lowering our huge ra
 - PHP
 - JQuery
 
-## Preview
+## Low-fidelity preview
+
   
