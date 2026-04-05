@@ -18,7 +18,7 @@ well I decided to start building a platform that helps with lowering our huge ra
 - HTML & CSS
 - JavaScript
 - PHP
-- JQuery
+- JQuery / mySQL
 
 ## Low-fidelity prototype preview
 
