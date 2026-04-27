@@ -20,8 +20,11 @@ well I decided to start building a platform that helps with lowering our huge ra
 - PHP
 - JQuery / mySQL
 
+## Structured workflows
+
 ## Low-fidelity prototype preview
 
 ## High-fidelity prototype final product
+
 
   
