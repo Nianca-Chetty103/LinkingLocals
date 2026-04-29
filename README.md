@@ -26,5 +26,5 @@ well I decided to start building a platform that helps with lowering our huge ra
 
 ## High-fidelity prototype final product
 
-
+## Preview of LinkingLocals
   
