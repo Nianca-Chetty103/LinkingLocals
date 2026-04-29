@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0">
+  <diagram id="9IKJMReFc9fyJS4csKy4" name="Page-1">
+    <mxGraphModel dx="1022" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a53gVi7GBWwwcVWw0KZR-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="LinkingLocals system" vertex="1">
+          <mxGeometry height="120" width="120" x="340" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="a53gVi7GBWwwcVWw0KZR-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Admin" vertex="1">
+          <mxGeometry height="60" width="120" x="620" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="IrxPB4m4IJntTYiMP21J-6" edge="1" parent="1" source="a53gVi7GBWwwcVWw0KZR-3" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.417;exitDx=0;exitDy=0;exitPerimeter=0;" target="a53gVi7GBWwwcVWw0KZR-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="461" y="155" as="sourcePoint" />
+            <mxPoint x="450" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IrxPB4m4IJntTYiMP21J-7" edge="1" parent="1" source="a53gVi7GBWwwcVWw0KZR-4" style="endArrow=classic;html=1;rounded=0;entryX=0.977;entryY=0.677;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" target="a53gVi7GBWwwcVWw0KZR-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="620" y="181" as="sourcePoint" />
+            <mxPoint x="450" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IrxPB4m4IJntTYiMP21J-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Manages / Checks content&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="90" x="510" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="IrxPB4m4IJntTYiMP21J-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Reports activity" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AJlbaKze7Q9FCAvna1uT-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="User" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="AJlbaKze7Q9FCAvna1uT-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.867;entryDx=0;entryDy=0;entryPerimeter=0;" target="AJlbaKze7Q9FCAvna1uT-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="340" y="192" as="sourcePoint" />
+            <mxPoint x="190" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AJlbaKze7Q9FCAvna1uT-3" edge="1" parent="1" source="AJlbaKze7Q9FCAvna1uT-1" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="250" as="sourcePoint" />
+            <mxPoint x="339" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AJlbaKze7Q9FCAvna1uT-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Creates Content &amp;amp; Bookings" vertex="1">
+          <mxGeometry height="30" width="90" x="230" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AJlbaKze7Q9FCAvna1uT-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Verifies Bookings &amp;amp; Content&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="120" x="215" y="195" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
