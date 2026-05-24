@@ -13,6 +13,7 @@ well I decided to start building a platform that helps with lowering our huge ra
 ## Considerations 
 - has to a project that helps our South african community.
 - also has to be a customer 2 customer e-commerce platform.
+- Improve an inefficient system
 
 ## Tech Satck 
 - HTML & CSS
