@@ -20,6 +20,8 @@ well I decided to start building a platform that helps with lowering our huge ra
 - JavaScript
 - PHP
 - mySQL (xmapp)
+- payment integration system: PayFast
+- Hosting done: InfinityFree
 
 ## Structured workflows
 ### Dataflow Diagram
