@@ -29,7 +29,7 @@ well I decided to start building a platform that helps with lowering our huge ra
 
 ### Enhanced entity relationship diagram
 <img src="https://github.com/Nianca-Chetty103/LinkingLocals/blob/main/eerdDiagram.jpg" width="550" height="300">
-### Database Schema
+
 ### CRC Diagram
 <img src="https://github.com/Nianca-Chetty103/LinkingLocals/blob/main/CRCDiagram%20(2).jpg" width="450" height="200">
 
@@ -40,7 +40,7 @@ well I decided to start building a platform that helps with lowering our huge ra
 <img src="https://github.com/Nianca-Chetty103/LinkingLocals/blob/main/Usecase%20(1).jpg" width="450" height="300">
 
 ### Database Design
-<img src="https://github.com/Nianca-Chetty103/LinkingLocals/blob/main/Usecase%20(1).jpg" width="450" height="300">
+<img src="https://github.com/Nianca-Chetty103/LinkingLocals/blob/main/DBschema.jpg" width="450" height="300">
 
 ## Low-fidelity prototype preview
 
