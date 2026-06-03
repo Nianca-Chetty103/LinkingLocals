@@ -45,4 +45,7 @@ well I decided to start building a platform that helps with lowering our huge ra
 ## Low-fidelity prototype preview
 
 ## Preview of LinkingLocals
-  
+<img src="https://github.com/Nianca-Chetty103/LinkingLocals/blob/main/Usecase%20(1).jpg" width="450" height="300">
+<img src="https://github.com/Nianca-Chetty103/LinkingLocals/blob/main/Usecase%20(1).jpg" width="450" height="300">
+<img src="https://github.com/Nianca-Chetty103/LinkingLocals/blob/main/Usecase%20(1).jpg" width="450" height="300">
+<img src="https://github.com/Nianca-Chetty103/LinkingLocals/blob/main/Usecase%20(1).jpg" width="450" height="300">
