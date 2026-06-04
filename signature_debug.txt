@@ -1,0 +1,22 @@
+STRING:
+merchant_id=10049338&merchant_key=uhrlhfavekl2p&return_url=http%3A%2F%2Flocalhost%2FDeliverable2Code%2Fhome.php%3Fpayment%3Dsuccess&cancel_url=http%3A%2F%2Flocalhost%2FDeliverable2Code%2Fhome.php%3Fpayment%3Dcancelled&notify_url=http%3A%2F%2Flocalhost%2FDeliverable2Code%2Fpayfast.php&name_first=Kaishori&email_address=kaley01%40gmail.com&m_payment_id=15&amount=100.00&item_name=Booking+%2315&passphrase=linkinglocals
+
+MD5:
+d852dc619deb7e832973ebaa031c63aa
+
+DATA:
+Array
+(
+    [merchant_id] => 10049338
+    [merchant_key] => uhrlhfavekl2p
+    [return_url] => http://localhost/Deliverable2Code/home.php?payment=success
+    [cancel_url] => http://localhost/Deliverable2Code/home.php?payment=cancelled
+    [notify_url] => http://localhost/Deliverable2Code/payfast.php
+    [name_first] => Kaishori
+    [name_last] => 
+    [email_address] => kaley01@gmail.com
+    [m_payment_id] => 15
+    [amount] => 100.00
+    [item_name] => Booking #15
+    [signature] => d852dc619deb7e832973ebaa031c63aa
+)

@@ -1,6 +1,6 @@
 <?php
 include "database.php";
-
+// Check if admin user is approved to use the website.
 if (isset($_GET['id'])) {
 
     $id = intval($_GET['id']);

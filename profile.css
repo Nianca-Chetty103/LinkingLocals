@@ -1,0 +1,543 @@
+#profile-page, #dashboard-page { 
+  display: none; 
+  max-width: 1100px; 
+  margin: 0 auto; 
+  padding: 48px 24px; 
+}
+
+#profile-page.show, #dashboard-page.show { 
+  display: block; 
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* --- Profile Header Panel --- */
+.profile-header { 
+  background: var(--card); 
+  border-radius: 24px; 
+  border: 1px solid var(--border); 
+  padding: 36px; 
+  display: flex; 
+  gap: 32px; 
+  align-items: center; 
+  margin-bottom: 36px; 
+  box-shadow: 0 4px 20px rgba(15, 14, 13, 0.02);
+}
+
+.profile-avatar { 
+  width: 90px; 
+  height: 90px; 
+  border-radius: 50%; 
+  background: linear-gradient(135deg, var(--accent), #f27a4b); 
+  color: #fff; 
+  font-size: 32px; 
+  font-weight: 700; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  font-family: 'Fraunces', serif; 
+  flex-shrink: 0; 
+  box-shadow: 0 8px 24px rgba(232, 98, 42, 0.2);
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-info h2 { 
+  font-family: 'Fraunces', serif; 
+  font-size: 28px; 
+  font-weight: 800; 
+  color: var(--ink);
+  letter-spacing: -0.02em;
+}
+
+.profile-info p { 
+  color: var(--muted); 
+  font-size: 14.5px; 
+  margin-top: 6px; 
+}
+
+/* --- Profile Statistics --- */
+.profile-stats { 
+  display: flex; 
+  gap: 32px; 
+  margin-top: 20px; 
+  border-left: 2px solid var(--border);
+  padding-left: 24px;
+}
+
+.pstat { 
+  text-align: left; 
+}
+
+.pstat strong { 
+  display: block; 
+  font-size: 22px; 
+  font-weight: 700; 
+  font-family: 'Fraunces', serif; 
+  color: var(--ink);
+}
+
+.pstat span { 
+  font-size: 13px; 
+  color: var(--muted); 
+  font-weight: 500;
+}
+
+.profile-btns { 
+  margin-left: auto; 
+  display: flex; 
+  flex-direction: column; 
+  gap: 10px; 
+}
+
+/* --- Modern Tab Selection Pill Navigation --- */
+.profile-tabs { 
+  display: flex; 
+  gap: 6px; 
+  background: var(--warm); 
+  border-radius: 14px; 
+  padding: 6px; 
+  margin-bottom: 32px; 
+  border: 1px solid rgba(15, 14, 13, 0.03);
+}
+
+.ptab { 
+  flex: 1; 
+  padding: 12px 16px; 
+  border-radius: 10px; 
+  font-size: 14px; 
+  font-weight: 600; 
+  cursor: pointer; 
+  text-align: center; 
+  border: none; 
+  background: transparent; 
+  font-family: 'DM Sans', sans-serif; 
+  color: var(--muted); 
+  transition: all 0.25s ease; 
+}
+
+.ptab:hover {
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.ptab.active { 
+  background: var(--card); 
+  color: var(--ink); 
+  box-shadow: 0 4px 12px rgba(15, 14, 13, 0.06); 
+}
+
+.ptab.admin-tab {
+  background: #fee2e2;
+  color: #991b1b;
+  font-weight: 700;
+  flex: 0.8;
+}
+
+.ptab.admin-tab:hover {
+  background: #fecaca;
+  color: #7f1d1d;
+}
+
+/* --- Responsive Layout Grid --- */
+.dash-grid { 
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: 24px; 
+  margin-bottom: 36px; 
+}
+
+.dash-card { 
+  background: var(--card); 
+  border-radius: 20px; 
+  border: 1px solid var(--border); 
+  padding: 28px; 
+  box-shadow: 0 4px 20px rgba(15, 14, 13, 0.02);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dash-card:hover {
+  box-shadow: 0 6px 24px rgba(15, 14, 13, 0.04);
+}
+
+.dash-card h3 { 
+  font-family: 'Fraunces', serif; 
+  font-size: 20px; 
+  font-weight: 700; 
+  margin-bottom: 20px; 
+  color: var(--ink);
+  border-bottom: 1px solid var(--warm);
+  padding-bottom: 12px;
+}
+
+/* --- Clean Info Data Rows --- */
+.info-row { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 14px 0; 
+  border-bottom: 1px solid var(--warm); 
+}
+
+.info-row:last-child { 
+  border-bottom: none; 
+}
+
+.info-row label { 
+  font-size: 14px; 
+  color: var(--muted); 
+  font-weight: 500;
+}
+
+.info-row span { 
+  font-size: 14px; 
+  font-weight: 600; 
+  color: var(--ink);
+}
+
+.info-row input { 
+  border: 1.5px solid var(--border); 
+  border-radius: 10px; 
+  padding: 8px 14px; 
+  font-size: 14px; 
+  font-family: 'DM Sans', sans-serif; 
+  width: 220px; 
+  background: var(--cream);
+  color: var(--ink);
+  transition: all 0.2s ease;
+}
+
+.info-row input:focus { 
+  outline: none; 
+  border-color: var(--accent); 
+  background: var(--card);
+  box-shadow: 0 0 0 3px rgba(232, 98, 42, 0.12);
+}
+
+/* --- Inner Buttons --- */
+.edit-btns { 
+  display: flex; 
+  gap: 10px; 
+  margin-top: 20px; 
+}
+
+.btn-edit { 
+  padding: 10px 24px; 
+  border-radius: 10px; 
+  font-size: 13.5px; 
+  font-weight: 600; 
+  cursor: pointer; 
+  font-family: 'DM Sans', sans-serif; 
+  border: none; 
+  transition: all 0.2s ease; 
+}
+
+.btn-edit.save { 
+  background: var(--accent); 
+  color: #fff; 
+}
+
+.btn-edit.save:hover {
+  background: #d4541f;
+  transform: translateY(-1px);
+}
+
+.btn-edit.cancel { 
+  background: var(--warm); 
+  color: var(--ink); 
+}
+
+.btn-edit.cancel:hover {
+  background: var(--border);
+}
+
+/* --- Modern Interactive Reviews Feed --- */
+.reviews-list { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 16px; 
+}
+
+.review-item { 
+  background: var(--cream); 
+  border: 1px solid var(--border);
+  border-radius: 16px; 
+  padding: 20px; 
+  transition: all 0.2s ease;
+}
+
+.review-item:hover {
+  background: var(--card);
+  box-shadow: 0 4px 14px rgba(15, 14, 13, 0.03);
+}
+
+.review-top { 
+  display: flex; 
+  justify-content: space-between; 
+  margin-bottom: 10px; 
+  align-items: center;
+}
+
+.review-author { 
+  font-size: 15px; 
+  font-weight: 600; 
+  color: var(--ink);
+}
+
+.review-stars { 
+  font-size: 13px; 
+  color: var(--gold); 
+  letter-spacing: 1px;
+}
+
+.review-text { 
+  font-size: 14px; 
+  color: var(--muted); 
+  line-height: 1.6; 
+  font-weight: 400;
+}
+
+.review-date { 
+  font-size: 12px; 
+  color: var(--muted); 
+  margin-top: 10px; 
+  display: block;
+}
+
+/* --- Message / Inbox Panels --- */
+.messages-list { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 12px; 
+}
+
+.msg-item { 
+  background: var(--card); 
+  border: 1px solid var(--border); 
+  border-radius: 16px; 
+  padding: 18px; 
+  display: flex; 
+  gap: 16px; 
+  align-items: center; 
+  cursor: pointer; 
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1); 
+}
+
+.msg-item:hover { 
+  border-color: var(--accent); 
+  transform: translateX(4px);
+  box-shadow: 0 4px 14px rgba(15, 14, 13, 0.04);
+}
+
+.msg-avatar { 
+  width: 44px; 
+  height: 44px; 
+  border-radius: 50%; 
+  background: var(--warm); 
+  color: var(--accent2); 
+  font-size: 15px; 
+  font-weight: 700; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  flex-shrink: 0; 
+  font-family: 'Fraunces', serif; 
+  border: 1px solid var(--border);
+}
+
+.msg-body {
+  flex: 1;
+}
+
+.msg-body .msg-name { 
+  font-size: 15px; 
+  font-weight: 600; 
+  color: var(--ink);
+}
+
+.msg-body .msg-preview { 
+  font-size: 13.5px; 
+  color: var(--muted); 
+  margin-top: 4px; 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 280px;
+}
+
+.msg-unread { 
+  background: var(--accent); 
+  color: #fff; 
+  border-radius: 20px; 
+  font-size: 11px; 
+  padding: 3px 10px; 
+  font-weight: 700; 
+}
+
+/* --- Booking Item Cards --- */
+.bookings-list { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 14px; 
+}
+
+.booking-item { 
+  background: var(--card); 
+  border: 1px solid var(--border); 
+  border-radius: 16px; 
+  padding: 20px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  box-shadow: 0 2px 10px rgba(15, 14, 13, 0.01);
+}
+
+.booking-info .bi-title { 
+  font-size: 16px; 
+  font-weight: 700; 
+  font-family: 'Fraunces', serif; 
+  color: var(--ink);
+}
+
+.booking-info .bi-meta { 
+  font-size: 13.5px; 
+  color: var(--muted); 
+  margin-top: 6px; 
+  display: flex;
+  gap: 12px;
+}
+
+/* --- Minimalist Status Badges --- */
+.status-badge { 
+  padding: 6px 14px; 
+  border-radius: 30px; 
+  font-size: 12px; 
+  font-weight: 600; 
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+}
+
+.status-badge.pending { 
+  background: #fff5e6; 
+  color: #d97706; 
+  border: 1px solid rgba(217, 119, 6, 0.15);
+}
+
+.status-badge.confirmed { 
+  background: #f0fdf4; 
+  color: #16a34a; 
+  border: 1px solid rgba(22, 163, 74, 0.15);
+}
+
+.status-badge.completed { 
+  background: #f0f9ff; 
+  color: #0284c7; 
+  border: 1px solid rgba(2, 132, 199, 0.15);
+}
+
+/* --- Service Post Form Creation UI --- */
+.post-form { 
+  background: var(--card); 
+  border-radius: 24px; 
+  border: 1px solid var(--border); 
+  padding: 36px; 
+  margin-bottom: 32px; 
+  box-shadow: 0 4px 24px rgba(15, 14, 13, 0.02);
+}
+
+.post-form h3 { 
+  font-family: 'Fraunces', serif; 
+  font-size: 22px; 
+  font-weight: 700; 
+  margin-bottom: 24px; 
+  color: var(--ink);
+}
+
+.form-grid { 
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: 20px; 
+}
+
+/* --- Global Utilities --- */
+.back-btn { 
+  background: none; 
+  border: none; 
+  cursor: pointer; 
+  color: var(--accent); 
+  font-size: 14px; 
+  font-weight: 600; 
+  margin-bottom: 24px; 
+  font-family: 'DM Sans', sans-serif; 
+  padding: 0; 
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: transform 0.2s ease;
+}
+
+.back-btn:hover {
+  transform: translateX(-3px);
+}
+
+@media(max-width: 768px) {
+  #profile-page, #dashboard-page { 
+    padding: 24px 16px; 
+  }
+  
+  .dash-grid, .form-grid { 
+    grid-template-columns: 1fr; 
+    gap: 16px;
+  }
+  
+  .profile-header { 
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    padding: 28px;
+    gap: 20px;
+  }
+  
+  .profile-stats {
+    border-left: none;
+    border-top: 1px solid var(--border);
+    padding-left: 0;
+    padding-top: 16px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .profile-btns { 
+    margin-left: 0; 
+    flex-direction: row; 
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .info-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .info-row input {
+    width: 100%;
+  }
+  
+  .booking-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+  
+  .status-badge {
+    align-self: flex-start;
+  }
+}
