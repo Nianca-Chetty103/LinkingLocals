@@ -49,5 +49,5 @@ well I decided to start building a platform that helps with lowering our huge ra
 <img src="https://github.com/Nianca-Chetty103/LinkingLocals/blob/main/Screenshot%202026-06-04%20142722.png" width="450" height="300">
 <img src="https://github.com/Nianca-Chetty103/LinkingLocals/blob/main/Screenshot%202026-06-04%20142738.png" width="450" height="300">
 <img src="https://github.com/Nianca-Chetty103/LinkingLocals/blob/main/Screenshot%202026-06-04%20142758.png" width="450" height="300">
-<img src="https://github.com/Nianca-Chetty103/LinkingLocals/blob/main/Screenshot%202026-06-04%20142722.png" width="450" height="300">
+<img src="https://github.com/Nianca-Chetty103/LinkingLocals/blob/main/Screenshot%202026-06-04%20142830.png" width="450" height="300">
 
