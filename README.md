@@ -42,6 +42,14 @@ well I decided to start building a platform that helps with lowering our huge ra
 ### Database Design
 <img src="https://github.com/Nianca-Chetty103/LinkingLocals/blob/main/DBschema.jpg" width="450" height="300">
 
+## How it works
+1. Open to scroll of LinkingLocals freely until you need to perform extra actions.
+2. Create an account.
+3. You can post and make bookings for any services.
+4. service provider must will be prompted to either accept the booking or decline it.
+5. If the booking is accepted, you can meet and then discuss.
+6. service provider will put the amount it took to complete the job and everything else be calculated.
+7. and the customer will pay price.
 
 ## Preview of LinkingLocals
 <img src="https://github.com/Nianca-Chetty103/LinkingLocals/blob/main/Screenshot%202026-06-02%20144921.png" width="450" height="300">  <img src="https://github.com/Nianca-Chetty103/LinkingLocals/blob/main/Screenshot%202026-06-02%20145026.png" width="450" height="300">
